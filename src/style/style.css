@@ -1,0 +1,117 @@
+body {
+    background-image: url("../assets/nl.jpg");
+    color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: #cccccc;
+        color: black;
+    }
+}
+
+/* HomePage */
+.homeHeading {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+/*FavouriteLocatopms */
+.locationHeader {
+    text-align: center;
+}
+
+.favouriteInfo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.faveLocations {
+    padding-left: 20px;
+}
+
+/* ForecastBox */
+.card {
+    color: black
+}
+
+
+/* Footer */
+footer {
+    padding-top: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* NavBar */
+
+.navbar-brand {
+    padding-left: 25px;
+}
+
+.home-link {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.form-control {
+    margin-left: 100px;
+}
+
+.searchbox {
+    margin-right: 50px
+}
+
+/* favourite locations */
+
+.favLocations {
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.fav-loc-tem
+{
+    padding-left: 10px;
+}
+
+/* SearchBox Styling */
+
+.search-box
+{
+    align-items: center; 
+}
+
+.btn {
+    align-items: center;
+    text-align: center;
+}
+
+/* ForecastBox */
+.card {
+    margin-top: 20px;
+}
+
+/* WeatherPageHeading */
+.WeatherPageHeading {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* WeatherInformation */
+
+.weatherHeading {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.favourites-dropdown-hidden {
+    display: none;
+}
